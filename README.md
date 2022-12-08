@@ -1,10 +1,10 @@
 This repository contains an analysis of rainfall in Melbourne and Oxford.
 
-To run this analysis use the following commands:
+To run this analysis, set the working directory to the file containing the folders in the repo and run the following scripts:
 
 ```
-Rscript src/combine-data.R
-Rscript src/make-plot.R
+src/combine-data.R
+src/make-plot.R
 ```
 
 The raw input data and the resulting combined dataset are in `data`, and the results are in `out`.
